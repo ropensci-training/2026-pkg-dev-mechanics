@@ -2,7 +2,7 @@
 title: Demo
 weight: 3
 output: hugodown::md_document
-rmd_hash: 22be5bccae818bc4
+rmd_hash: a1a471971de01cee
 
 ---
 
@@ -76,7 +76,7 @@ La preparación no es divertida!
 - Insertá el esqueleto roxygen2.
 
 {{< figure src="/images/bulb.png" caption="Captura de pantalla en Positron. Bombilla debajo del nombre de la función." >}}
-{{< figure src="/images/bulb.png" caption="Captura de pantalla en Positron. Haciendo clic en la bombilla, se puedo elegir añadir el esqueleto roxygen2" >}}
+{{< figure src="/images/bulb2.png" caption="Captura de pantalla en Positron. Haciendo clic en la bombilla, se puedo elegir añadir el esqueleto roxygen2" >}}
 
 - [`devtools::document()`](https://devtools.r-lib.org/reference/document.html) (o Ctrl + Shift + E), `?what_time`, muestra el archivo Rd.
 

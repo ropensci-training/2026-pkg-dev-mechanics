@@ -88,7 +88,7 @@ La preparación no es divertida!
 ```
 
 ```{=html}
-{{< figure src="/images/bulb.png" caption="Captura de pantalla en Positron. Haciendo clic en la bombilla, se puedo elegir añadir el esqueleto roxygen2" >}}
+{{< figure src="/images/bulb2.png" caption="Captura de pantalla en Positron. Haciendo clic en la bombilla, se puedo elegir añadir el esqueleto roxygen2" >}}
 ```
 
 - `devtools::document()` (o Ctrl + Shift + E), `?what_time`, muestra el archivo Rd.
