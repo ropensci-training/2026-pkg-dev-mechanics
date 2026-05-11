@@ -228,7 +228,7 @@ Cómo guardar los ajustes de una bicicleta.
 
 ***
 
-## Comprobación R CMD (devtools::check())
+## R CMD check (devtools::check())
 
 ```{r traffic, results="asis", cache=TRUE, echo=FALSE}
 get_pic(id = 4543112, alt = "Bike traffic light", 300)

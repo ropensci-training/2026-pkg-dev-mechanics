@@ -7,7 +7,7 @@ layout: list
 weight: 11
 output: hugodown::md_document
 countdown: true
-rmd_hash: b4b8d2b78cef9532
+rmd_hash: 71af5ed63f7cf8ec
 
 ---
 
@@ -205,7 +205,7 @@ Cómo guardar los ajustes de una bicicleta.
 
 ------------------------------------------------------------------------
 
-## Comprobación R CMD (devtools::check())
+## R CMD check (devtools::check())
 
 <div class="highlight">
 
