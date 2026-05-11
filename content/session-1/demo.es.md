@@ -2,7 +2,7 @@
 title: Demo
 weight: 3
 output: hugodown::md_document
-rmd_hash: a1a471971de01cee
+rmd_hash: f68dfdc41e800ad1
 
 ---
 
@@ -78,7 +78,7 @@ La preparación no es divertida!
 {{< figure src="/images/bulb.png" caption="Captura de pantalla en Positron. Bombilla debajo del nombre de la función." >}}
 {{< figure src="/images/bulb2.png" caption="Captura de pantalla en Positron. Haciendo clic en la bombilla, se puedo elegir añadir el esqueleto roxygen2" >}}
 
-- [`devtools::document()`](https://devtools.r-lib.org/reference/document.html) (o Ctrl + Shift + E), `?what_time`, muestra el archivo Rd.
+- [`devtools::document()`](https://devtools.r-lib.org/reference/document.html) (o Ctrl + Shift + D), `?what_time`, muestra el archivo Rd.
 
 - Construye y vuelve a cargar (instalá los paquetes desde la pestaña de construcción de RStudio o "R: Install R Package and Restart R" en Positron), intentá utilizar el paquete desde otra sesión. Instalá desde GitHub.
 
