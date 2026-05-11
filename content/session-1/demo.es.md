@@ -2,7 +2,7 @@
 title: Demo
 weight: 3
 output: hugodown::md_document
-rmd_hash: 9f8d6e3a83cde64e
+rmd_hash: 22be5bccae818bc4
 
 ---
 
@@ -40,7 +40,12 @@ La preparación no es divertida!
 
 - [`usethis::edit_r_profile()`](https://usethis.r-lib.org/reference/edit.html)
 
-- [`devtools::check()`](https://devtools.r-lib.org/reference/check.html), [`usethis::use_mit_license`](https://usethis.r-lib.org/reference/licenses.html)
+{{< figure src="/images/rprofile.png" caption="Captura de pantalla en Positron. En rojo se ve la consola de R dondé llamé la función, y donde se abre el archivo que tengo que modificar." >}}
+
+- [`devtools::check()`](https://devtools.r-lib.org/reference/check.html) (o Ctrl + Shift + E), [`usethis::use_mit_license`](https://usethis.r-lib.org/reference/licenses.html). Si uso [`devtools::check()`](https://devtools.r-lib.org/reference/check.html) todo permanece en la consola de R. Si uso la comanda de Positron, asi es:
+
+{{< figure src="/images/check.png" caption="Captura de pantalla en Positron. Donde busco la comanda de chequear paquetes." >}}
+{{< figure src="/images/check2.png" caption="Captura de pantalla en Positron. Donde tengo los resultados del chequeo." >}}
 
 - [`usethis::use_git()`](https://usethis.r-lib.org/reference/use_git.html)
 
@@ -56,7 +61,7 @@ La preparación no es divertida!
 
 - `usethis::use_r("time")`. Explica qué hace [`sprintf()`](https://rdrr.io/r/base/sprintf.html).
 
-- `devtools::load()`, `what_time()`.
+- `devtools::load()` (o Ctrl + Shift + L), `what_time()`.
 
 - Añadí un argumento.
 
@@ -70,7 +75,10 @@ La preparación no es divertida!
 
 - Insertá el esqueleto roxygen2.
 
-- [`devtools::document()`](https://devtools.r-lib.org/reference/document.html), `?what_time`, muestra el archivo Rd.
+{{< figure src="/images/bulb.png" caption="Captura de pantalla en Positron. Bombilla debajo del nombre de la función." >}}
+{{< figure src="/images/bulb.png" caption="Captura de pantalla en Positron. Haciendo clic en la bombilla, se puedo elegir añadir el esqueleto roxygen2" >}}
+
+- [`devtools::document()`](https://devtools.r-lib.org/reference/document.html) (o Ctrl + Shift + E), `?what_time`, muestra el archivo Rd.
 
 - Construye y vuelve a cargar (instalá los paquetes desde la pestaña de construcción de RStudio o "R: Install R Package and Restart R" en Positron), intentá utilizar el paquete desde otra sesión. Instalá desde GitHub.
 
@@ -84,7 +92,7 @@ La preparación no es divertida!
 
 ## Usá dependencias
 
-- Añadí dos dependencias, `use_package("praise")` y `use_package("rlang")`.
+- Añadí dos dependencias, `use_package("praise")` y `use_package("rlang")`. Abre `DESCRIPTION`.
 
 - [`devtools::load_all()`](https://devtools.r-lib.org/reference/load_all.html), `what_time()`, `what_time(language = "en")`.
 

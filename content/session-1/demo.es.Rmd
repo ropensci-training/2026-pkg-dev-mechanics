@@ -40,7 +40,19 @@ La preparación no es divertida!
 
 * `usethis::edit_r_profile()`
 
-* `devtools::check()`, `usethis::use_mit_license` 
+```{=html}
+{{< figure src="/images/rprofile.png" caption="Captura de pantalla en Positron. En rojo se ve la consola de R dondé llamé la función, y donde se abre el archivo que tengo que modificar." >}}
+```
+
+* `devtools::check()` (o Ctrl + Shift + E), `usethis::use_mit_license`. Si uso `devtools::check()` todo permanece en la consola de R. Si uso la comanda de Positron, asi es:
+
+```{=html}
+{{< figure src="/images/check.png" caption="Captura de pantalla en Positron. Donde busco la comanda de chequear paquetes." >}}
+```
+
+```{=html}
+{{< figure src="/images/check2.png" caption="Captura de pantalla en Positron. Donde tengo los resultados del chequeo." >}}
+```
 
 * `usethis::use_git()`
 
@@ -56,7 +68,7 @@ La preparación no es divertida!
 
 * `usethis::use_r("time")`. Explica qué hace `sprintf()`.
 
-* `devtools::load()`, `what_time()`.
+* `devtools::load()` (o Ctrl + Shift + L), `what_time()`.
 
 * Añadí un argumento.
 
@@ -70,7 +82,16 @@ La preparación no es divertida!
 
 - Insertá el esqueleto roxygen2.
 
-- `devtools::document()`, `?what_time`, muestra el archivo Rd.
+
+```{=html}
+{{< figure src="/images/bulb.png" caption="Captura de pantalla en Positron. Bombilla debajo del nombre de la función." >}}
+```
+
+```{=html}
+{{< figure src="/images/bulb.png" caption="Captura de pantalla en Positron. Haciendo clic en la bombilla, se puedo elegir añadir el esqueleto roxygen2" >}}
+```
+
+- `devtools::document()` (o Ctrl + Shift + E), `?what_time`, muestra el archivo Rd.
 
 - Construye y vuelve a cargar (instalá los paquetes desde la pestaña de construcción de RStudio o "R: Install R Package and Restart R" en Positron), intentá utilizar el paquete desde otra sesión. Instalá desde GitHub.
 
@@ -84,7 +105,7 @@ La preparación no es divertida!
 
 ## Usá dependencias
 
-* Añadí dos dependencias, `use_package("praise")` y `use_package("rlang")`.
+* Añadí dos dependencias, `use_package("praise")` y `use_package("rlang")`. Abre `DESCRIPTION`.
 
 * `devtools::load_all()`, `what_time()`, `what_time(language = "en")`.
 
