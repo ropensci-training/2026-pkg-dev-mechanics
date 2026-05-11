@@ -1,0 +1,51 @@
+---
+title: Demo
+weight: 3
+output: hugodown::md_document
+---
+
+## Recordatorio del último encuentro
+
+Tenemos un paquete con una función.
+
+***
+
+## Un _test_
+
+- `use_testthat()`.
+
+- `use_test("time")`: primero un _test_ simple, luego un _snapshot test_, luego un _snapshot test_ del error.
+
+- `devtools::test()` o botón.
+
+- `devtools::check()`
+
+:eyes: [sitio de testthat](https://testthat.r-lib.org/)
+
+***
+
+## Más _tests_
+
+- Usá `withr::local_options()` en un _test_.
+
+- Mirá la documentación de `testthat::test_path()`.
+
+- Busca una función de ayuda en un archivo `tests/testthat/helper-bla.R` y mira lo que hace. <https://github.com/search?q=user%3Atidyverse+path%3Atests%2Ftestthat+path%3A**%2Fhelper.*&type=code&ref=advsearch>
+
+:eyes: [sitio de withr](https://withr.r-lib.org/)
+
+:eyes: [Código y archivos de ayuda para tus _tests_ testthat](https://blog.r-hub.io/2020/11/18/testthat-utility-belt/)
+
+:toolbox: ¡repite los pasos!
+
+***
+
+## GitHub Actions
+
+- `usethis::use_github_action("check-standard")`. `R CMD check` en la nube, diferentes sistemas operativos.
+
+:eyes: [utilizá esta función para configurar las Acciones de GitHub](https://usethis.r-lib.org/reference/github_actions.html)
+
+:toolbox: ¡Repite los pasos!
+
+***

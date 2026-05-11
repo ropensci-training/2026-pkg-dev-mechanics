@@ -1,0 +1,34 @@
+---
+title: Demo
+weight: 3
+output: hugodown::md_document
+---
+## Recordatorio
+
+Tenemos un paquete con una función y _tests_.
+
+Esa función tiene una página de manual local.
+
+## Documentación
+
+:warning: rmarkdown y pkgdown necesitan que tu paquete sea *instalado*.
+
+- `install.packages("rmarkdown")`, `usethis::use_readme_rmd()`, escribir cosas, `devtools::build_readme()`, commit+push, mirar el repositorio de GitHub.
+
+- `usethis::use_vignette("minipkg.qmd")` (Quarto) o `usethis::use_vignette("minipkg")` (R Markdown), escribí cosas. Viñeta != artículo.
+
+- `install.packages("pkgdown")`, `usethis::use_pkgdown()`, `pkgdown::build_site()`. Localmente.
+
+:eyes: [pkgdown sitio web](https://pkgdown.r-lib.org/)
+
+:toolbox: ¡Repetí los pasos!
+
+## Construir el sitio web automáticamente
+
+- `usethis::use_pkgdown_github_pages()` cambia la configuración de las páginas GitHub del repositorio, añade la URL a la configuración pkgdown y a DESCRIPTION.
+
+:eyes: [usá esta función para configurar las Acciones de GitHub](https://usethis.r-lib.org/reference/github_actions.html)
+
+:toolbox: ¡Repetí los pasos!
+
+***

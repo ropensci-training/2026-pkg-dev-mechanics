@@ -1,0 +1,247 @@
+---
+outputs:
+- Reveal
+title: ¡Desarrolla paquetes!
+hidden: true
+layout: list
+weight: 11
+output: hugodown::md_document
+countdown: true
+---
+
+# Desarrollo de paquetes
+
+```{r, echo=FALSE, message=FALSE}
+library("magrittr")
+get_pic <- function(id, alt, width) {
+  info <- httr::GET(
+    paste0("https://api.pexels.com/v1/photos/", id),
+    httr::add_headers(Authorization = Sys.getenv("PEXELS_KEY"))
+  ) %>%
+    httr::content()
+  download.file(info$src$large, paste0(id, ".jpeg"))
+  cat("```{=html}\n")
+  cat(paste0(
+    '{',
+    '{< figure src="',
+    paste0(id, ".jpeg"),
+    '" alt="',
+    alt,
+    '" caption="Foto de [',
+    info$photographer,
+    ' en Pexels](',
+    info$url,
+    ')." width="',
+    width,
+    '" >}',
+    '}'
+  ))
+  cat("\n```\n")
+}
+```
+
+```{r repair, results="asis", cache=TRUE, echo=FALSE}
+get_pic(id = 132682, alt = "Bike in repair room", 400)
+```
+
+
+---
+## Mis credenciales de desarrollo de paquetes R
+
+
+- [Revisión de software por pares de rOpenSci](https://ropensci.org/es/software-review).
+
+- [Guía de desarrollo de rOpenSci](https://devguide.ropensci.org/es/index.es.html).
+
+- [blog R-hub](https://blog.r-hub.io).
+
+- Libro [HTTP testing in R](https://books.ropensci.org/http-testing/) con Scott Chamberlain.
+
+- Participé en el desarrollo de varios paquetes.
+
+***
+
+## ¿Por qué desarrollar un paquete R?
+
+La forma más fácil de compartir código/datos/plantillas R Markdown... con
+
+- vos (en el futuro),
+
+- las personas que conocés,
+
+- y las personas que no conocés.
+
+***
+
+## ¿Por qué aprender sobre el desarrollo de paquetes?
+
+[Jon Calder](https://joncalder.co.za/) [explicó](https://github.com/iandurbach/datasci-fi/tree/master/docs/packages/slides)
+
+- Compartir código (y datos);
+
+- Para aprovechar las herramientas existentes;
+
+- Para contribuir a otros paquetes.
+
+***
+
+## ¿Quién puede escribir un paquete? ¡VOS!
+
+Susan Johnston [preguntó](https://github.com/susjoh/fibonacci).
+
+- Podés abrir R o RStudio?
+
+- Podés instalar un paquete?
+
+- ¿Escribistes alguna vez una función en R?
+
+- ¿Podrías *aprender* a escribir una función en R?
+
+**¡Podés escribir un paquete en R!**
+
+***
+
+## Recursos sobre funciones (1/2)
+
+- [Materiales del tutorial de R-Ladies East Lansing de Stephanie Kirmer](https://github.com/rladies-eastlansing/2021-rfunctions#writing-r-functions)
+
+- [Escribe tus propias funciones de R](https://stat545.com/functions-part1.html), curso stat 545 por Jenny Bryan y The STAT 545 TAs;
+
+- [Capítulo sobre funciones](https://r4ds.had.co.nz/functions.html) en el libro "R for Data Science" de Garrett Grolemund y Hadley Wickham;
+
+***
+
+## Recursos sobre funciones (2/2)
+
+- [Charla "Fun with Functions](https://zealous-wiles-e22e83.netlify.app/talk/funwithfunctions/) por Kaylea Haynes, R-Ladies Manchester.
+
+- Capítulo sobre Funciones del libro de la materia [Introducción a la Programación II](https://intro-programacion.netlify.app/07_funciones) de Paola Corrales y Yanina Bellini Saibene.
+
+***
+
+## ¿Qué es un paquete?
+> Para calmar tus temores, recordá que no es más que una carpeta organizada de una manera específica.
+
+[Traducción de una frase de Sébastien Rochette](https://thinkr.fr/transformer-plusieurs-scripts-eparpilles-en-beau-package-r)
+
+***
+
+## Automatización
+
+```{=html}
+{{< figure src="automate_meme.jpg" alt="Pequeño monstruo que dice automatizar todas las cosas"  caption="Imagen del meme de [Allie Brosh](https://en.wikipedia.org/wiki/Hyperbole_and_a_Half)"  >}}
+```
+
+***
+
+## Automatizar... ¿Cómo?
+
+¿Te acordás de Clippy?
+
+***
+
+## Automatizando... ¿Cómo?
+
+Te presento a un Clippy realmente útil, `{usethis}` ¡!
+
+```{=html}
+{{< figure src="https://usethis.r-lib.org/reference/figures/logo.png" alt="usa este logo, un robot"  >}}
+```
+
+***
+
+## ¿Por qué automatizar? Más fácil para...
+
+Trabajo regular, enseñanza, reproducción de problemas.
+
+```{r wheel, results="asis", cache=TRUE, echo=FALSE}
+get_pic(
+  id = 5446296,
+  alt = "Rueda de bicicleta con herramientas en el piso",
+  200
+)
+```
+
+***
+
+## Objetivos para las tres sesiones
+
+- Conocer (las mejores :innocent:) herramientas para el desarrollo de paquetes;
+
+- Aprender que no hay magia, sólo práctica y :sparkles: consejos :sparkles:.
+
+```{r tiny, results="asis", cache=TRUE, echo=FALSE}
+get_pic(
+  id = 686230,
+  alt = "Señal de bicicleta en un carril de bicicletas, con hojas de árbol.",
+  300
+)
+```
+
+***
+
+## Visita al sitio web
+
+:link: <https://desarrollo-paquetes-basico-2025.netlify.app/>
+
+Diapositivas, notas de la demostración, otros recursos
+
+```{r balance, results="asis", cache=TRUE, echo=FALSE}
+get_pic(id = 3932867, alt = "Niño pequeño en una bicicleta sin pedales", 200)
+```
+
+***
+
+## Hora del taller :bike:
+
+Alternando entre ver y practicar en las salas de Zoom.
+
+```{r parkes, results="asis", cache=TRUE, echo=FALSE}
+get_pic(id = 221237, alt = "Two bikes parked", 200)
+```
+
+***
+
+## De vuelta del taller
+
+`{usethis}` para todo.
+
+```{r sign, results="asis", cache=TRUE, echo=FALSE}
+get_pic(id = 206040, alt = "Cycle path sign", 400)
+```
+
+***
+
+## `.Rprofile`
+
+Cómo guardar los ajustes de una bicicleta.
+
+¡No tenés que ajustar la altura del asiento cada vez que salgas a dar una vuelta!
+
+***
+
+## Dos ruedas siempre girando :bike:
+
+- Cargando, probando, editando.
+
+- Ejecutar (añadir) las pruebas, editar. ¡En la próxima sesión!
+
+***
+
+## Comprobación R CMD (devtools::check())
+
+```{r traffic, results="asis", cache=TRUE, echo=FALSE}
+get_pic(id = 4543112, alt = "Bike traffic light", 300)
+```
+
+***
+
+## ¿Tenés preguntas?
+
+¿Nos vemos en el próximo curso de desarrollo de paquetes?
+
+Prepará las preguntas con antelación, envialas con antelación si podés.
+
+```{=html}
+<iframe src="https://giphy.com/embed/XFpCAWSfTwXh2uSEk2" width="480" height="269" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/moon-et-extra-terrestrial-XFpCAWSfTwXh2uSEk2">via GIPHY</a></p>
+```

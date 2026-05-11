@@ -1,0 +1,87 @@
+---
+title: Demo
+weight: 3
+output: hugodown::md_document
+---
+
+## Preparación de tu sistema
+
+* `.Library`, `.libPaths()`
+
+* `install.packages("devtools")`. [Capítulo Setup del libro R packages](https://r-pkgs.org/setup.html).
+
+* `install.packages("pak")`.
+
+* `devtools::has_devel()`
+
+* `devtools::dev_sitrep()`
+
+* `usethis::git_sitrep()`. [Managing Git(Hub) Credentials](https://usethis.r-lib.org/articles/git-credentials.html); ["Managing GitHub credentials from R, difficulty level linux"](https://blog.djnavarro.net/posts/2021-08-08_git-credential-helpers/).
+
+* usethis y devtools rn mi .Rprofile. `usethis::edit_r_profile()`, qué es un .Rprofile? [usethis setup article](https://usethis.r-lib.org/articles/articles/usethis-setup.html).
+
+La preparación no es divertida!
+
+:toolbox: (sin grupos) ¿Algún problema? :fingers_crossed:
+
+---
+
+## Creación de paquete
+
+* `pak::pkg_name_check("minipkg")`
+
+* `usethis::create_package("../minipkg")`
+
+* `usethis::edit_r_profile()`
+
+* `devtools::check()`, `usethis::use_mit_license` 
+
+* `usethis::use_git()`
+
+* `usethis::use_github()`. Mira al repositorio y su :sparkles: pagina de _issues_ :sparkles:.
+
+:eyes: [sitio de usethis](https://usethis.r-lib.org/)
+
+:toolbox: Repite las mismas tareas, enviá el enlace de tu repositorio en el chat!
+
+---
+
+## Una primera función
+
+* `usethis::use_r("time")`. Explica qué hace `sprintf()`.
+
+* `devtools::load()`, `what_time()`.
+
+* Añadí un argumento.
+
+* `devtools::load_all()`, `what_time()`, `what_time(language = "en")`.
+
+:toolbox: ¡Repetí los pasos!
+
+---
+
+## Página del manual
+
+- Insertá el esqueleto roxygen2.
+
+- `devtools::document()`, `?what_time`, muestra el archivo Rd.
+
+- Construye y vuelve a cargar (instalá los paquetes desde la pestaña de construcción de RStudio o "R: Install R Package and Restart R" en Positron), intentá utilizar el paquete desde otra sesión. Instalá desde GitHub.
+
+:eyes: [sitio de roxygen2](https://roxygen2.r-lib.org/)
+
+:eyes: [Libro R Packages, the whole game](https://r-pkgs.org/whole-game.html)
+
+:toolbox: ¡Repetí los pasos!
+
+---
+
+## Usá dependencias
+
+* Añadí dos dependencias, `use_package("praise")` y `use_package("rlang")`.
+
+* `devtools::load_all()`, `what_time()`, `what_time(language = "en")`.
+
+:toolbox: ¡Repetí los pasos!
+
+---
