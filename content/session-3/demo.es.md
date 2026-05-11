@@ -2,7 +2,7 @@
 title: Demo
 weight: 3
 output: hugodown::md_document
-rmd_hash: 0b68f3797213024d
+rmd_hash: 4d3db39264c67130
 
 ---
 
@@ -20,7 +20,7 @@ Abre la IDE que querés usar hoy.
 
 ## Documentación
 
-:warning: rmarkdown y pkgdown necesitan que tu paquete sea *instalado*.
+:warning: pkgdown necesita que tu paquete sea *instalado*.
 
 - `install.packages("rmarkdown")`, [`usethis::use_readme_rmd()`](https://usethis.r-lib.org/reference/use_readme_rmd.html), escribir cosas, [`devtools::build_readme()`](https://devtools.r-lib.org/reference/build_readme.html), commit+push, mirar el repositorio de GitHub.
 
