@@ -8,6 +8,8 @@ rmd_hash: ea49a54e596865a2
 
 ## Preparación de tu sistema
 
+Abre la IDE que querés usar hoy.
+
 -   `.Library`, [`.libPaths()`](https://rdrr.io/r/base/libPaths.html)
 
 -   `install.packages("devtools")`. [Capítulo Setup del libro R packages](https://r-pkgs.org/setup.html).

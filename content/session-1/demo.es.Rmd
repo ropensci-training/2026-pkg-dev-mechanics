@@ -6,6 +6,8 @@ output: hugodown::md_document
 
 ## Preparación de tu sistema
 
+Abre la IDE que querés usar hoy.
+
 * `.Library`, `.libPaths()`
 
 * `install.packages("devtools")`. [Capítulo Setup del libro R packages](https://r-pkgs.org/setup.html).
