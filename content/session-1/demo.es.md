@@ -20,7 +20,7 @@ rmd_hash: ea49a54e596865a2
 
 -   [`usethis::git_sitrep()`](https://rdrr.io/pkg/usethis/man/git_sitrep.html). [Managing Git(Hub) Credentials](https://usethis.r-lib.org/articles/git-credentials.html); ["Managing GitHub credentials from R, difficulty level linux"](https://blog.djnavarro.net/posts/2021-08-08_git-credential-helpers/).
 
--   usethis y devtools rn mi .Rprofile. [`usethis::edit_r_profile()`](https://rdrr.io/pkg/usethis/man/edit.html), qué es un .Rprofile? [usethis setup article](https://usethis.r-lib.org/articles/articles/usethis-setup.html).
+-   usethis y devtools en mi .Rprofile. [`usethis::edit_r_profile()`](https://rdrr.io/pkg/usethis/man/edit.html), qué es un .Rprofile? [usethis setup article](https://usethis.r-lib.org/articles/articles/usethis-setup.html).
 
 La preparación no es divertida!
 
