@@ -1,4 +1,4 @@
-baseURL = "https://desarrollo-paquetes-basico-2025.netlify.app/"
+baseURL = "https://desarrollo-paquetes-basico-2026.netlify.app/"
 languageCode = "es-AR"
 defaultContentLanguage = "es"
 title = "Desarrollo de paquetes para principiantes"
@@ -30,7 +30,7 @@ languageName = "Spanish"
 [[Languages.es.menu.shortcuts]]
 name = "<i class='fab fa-fw fa-github'></i> Repositorio en GitHub"
 identifier = "ds"
-url = "https://github.com/ropensci-training/2025-pkg-dev-mechanics"
+url = "https://github.com/ropensci-training/2026-pkg-dev-mechanics"
 weight = 10
 
 [[Languages.es.menu.shortcuts]]
@@ -49,7 +49,7 @@ url = "https://creativecommons.org/licenses/by/4.0/"
 weight = 40
 
 [params]
-  editURL = "https://github.com/ropensci-training/2025-pkg-dev-mechanics/edit/main/content/"
+  editURL = "https://github.com/ropensci-training/2026-pkg-dev-mechanics/edit/main/content/"
   description = "Desarrollo de paquetes para principiantes"
   author = "Maëlle Salmon"
   showVisitedLinks = true

@@ -4,7 +4,7 @@ title: "Desarrollo de paquetes para principiantes"
 
 # Desarrollo de paquetes para principiantes
 
-> Septiembre-Octubre 2025
+> Mayo-Junio 2026
 > [Programa Campeon(e|a)s de rOpenSci](https://ropensci.org/es/champions/)
 
 

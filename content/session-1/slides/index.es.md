@@ -153,7 +153,7 @@ Trabajo regular, enseñanza, reproducción de problemas.
 
 ## Visita al sitio web
 
-:link: <https://desarrollo-paquetes-basico-2025.netlify.app/>
+:link: <https://desarrollo-paquetes-basico-2026.netlify.app/>
 
 Diapositivas, notas de la demostración, otros recursos
 
