@@ -2,13 +2,15 @@
 title: Demo
 weight: 3
 output: hugodown::md_document
-rmd_hash: f68dfdc41e800ad1
+rmd_hash: b74dc904c6af33a8
 
 ---
 
 ## Preparación de tu sistema
 
 Abre la IDE que querés usar hoy.
+
+**Si usás Positron aqui son paginas de documentación sobre atajos de teclado: [general](https://positron.posit.co/guide-r.html#keyboard-shortcuts), [R](https://positron.posit.co/keyboard-shortcuts.html), [RStudio](https://positron.posit.co/migrate-rstudio-keybindings.html).**
 
 - `.Library`, [`.libPaths()`](https://rdrr.io/r/base/libPaths.html)
 
@@ -42,7 +44,7 @@ La preparación no es divertida!
 
 {{< figure src="/images/rprofile.png" caption="Captura de pantalla en Positron. En rojo se ve la consola de R dondé llamé la función, y donde se abre el archivo que tengo que modificar." >}}
 
-- [`devtools::check()`](https://devtools.r-lib.org/reference/check.html) (o Ctrl + Shift + E), [`usethis::use_mit_license`](https://usethis.r-lib.org/reference/licenses.html). Si uso [`devtools::check()`](https://devtools.r-lib.org/reference/check.html) todo permanece en la consola de R. Si uso la comanda de Positron, asi es:
+- [`devtools::check()`](https://devtools.r-lib.org/reference/check.html) (o [Ctrl + Shift + E](https://positron.posit.co/guide-r.html#keyboard-shortcuts)), [`usethis::use_mit_license()`](https://usethis.r-lib.org/reference/licenses.html). Si uso [`devtools::check()`](https://devtools.r-lib.org/reference/check.html) todo permanece en la consola de R. Si uso la comanda de Positron, asi es:
 
 {{< figure src="/images/check.png" caption="Captura de pantalla en Positron. Donde busco la comanda de chequear paquetes." >}}
 {{< figure src="/images/check2.png" caption="Captura de pantalla en Positron. Donde tengo los resultados del chequeo." >}}
@@ -61,7 +63,7 @@ La preparación no es divertida!
 
 - `usethis::use_r("time")`. Explica qué hace [`sprintf()`](https://rdrr.io/r/base/sprintf.html).
 
-- `devtools::load()` (o Ctrl + Shift + L), `what_time()`.
+- `devtools::load()` (o [Ctrl + Shift + L](https://positron.posit.co/guide-r.html#keyboard-shortcuts)), `what_time()`.
 
 - Añadí un argumento.
 
@@ -78,7 +80,7 @@ La preparación no es divertida!
 {{< figure src="/images/bulb.png" caption="Captura de pantalla en Positron. Bombilla debajo del nombre de la función." >}}
 {{< figure src="/images/bulb2.png" caption="Captura de pantalla en Positron. Haciendo clic en la bombilla, se puedo elegir añadir el esqueleto roxygen2" >}}
 
-- [`devtools::document()`](https://devtools.r-lib.org/reference/document.html) (o Ctrl + Shift + D), `?what_time`, muestra el archivo Rd.
+- [`devtools::document()`](https://devtools.r-lib.org/reference/document.html) (o [Ctrl + Shift + D](https://positron.posit.co/guide-r.html#keyboard-shortcuts)), `?what_time`, muestra el archivo Rd.
 
 - Construye y vuelve a cargar (instalá los paquetes desde la pestaña de construcción de RStudio o "R: Install R Package and Restart R" en Positron), intentá utilizar el paquete desde otra sesión. Instalá desde GitHub.
 

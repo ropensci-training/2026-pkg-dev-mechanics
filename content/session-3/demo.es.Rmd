@@ -9,6 +9,13 @@ Tenemos un paquete con una función y _tests_.
 
 Esa función tiene una página de manual local.
 
+******
+
+Abre la IDE que querés usar hoy. 
+
+**Si usás Positron aqui son paginas de documentación sobre atajos de teclado: [general](https://positron.posit.co/guide-r.html#keyboard-shortcuts), [R](https://positron.posit.co/keyboard-shortcuts.html), [RStudio](https://positron.posit.co/migrate-rstudio-keybindings.html).**
+
+
 ## Documentación
 
 :warning: rmarkdown y pkgdown necesitan que tu paquete sea *instalado*.

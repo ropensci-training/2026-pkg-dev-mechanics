@@ -2,7 +2,7 @@
 title: Demo
 weight: 3
 output: hugodown::md_document
-rmd_hash: 6fc515810edff908
+rmd_hash: ec4a60b7391ade3f
 
 ---
 
@@ -12,15 +12,19 @@ Tenemos un paquete con una función.
 
 ------------------------------------------------------------------------
 
+Abre la IDE que querés usar hoy.
+
+**Si usás Positron aqui son paginas de documentación sobre atajos de teclado: [general](https://positron.posit.co/guide-r.html#keyboard-shortcuts), [R](https://positron.posit.co/keyboard-shortcuts.html), [RStudio](https://positron.posit.co/migrate-rstudio-keybindings.html).**
+
 ## Un *test*
 
 - `use_testthat()`.
 
 - `use_test("time")`: primero un *test* simple, luego un *snapshot test*, luego un *snapshot test* del error.
 
-- [`devtools::test()`](https://devtools.r-lib.org/reference/test.html) o botón.
+- [`devtools::test()`](https://devtools.r-lib.org/reference/test.html) o [Ctrl + Shift + T](https://positron.posit.co/guide-r.html#keyboard-shortcuts).
 
-- [`devtools::check()`](https://devtools.r-lib.org/reference/check.html)
+- [`devtools::check()`](https://devtools.r-lib.org/reference/check.html) o [Ctrl + Shift + E](https://positron.posit.co/guide-r.html#keyboard-shortcuts).
 
 :eyes: [sitio de testthat](https://testthat.r-lib.org/)
 

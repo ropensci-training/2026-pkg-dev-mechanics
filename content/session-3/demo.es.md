@@ -2,7 +2,7 @@
 title: Demo
 weight: 3
 output: hugodown::md_document
-rmd_hash: 9d347fb6c4a68de4
+rmd_hash: 0b68f3797213024d
 
 ---
 
@@ -11,6 +11,12 @@ rmd_hash: 9d347fb6c4a68de4
 Tenemos un paquete con una función y *tests*.
 
 Esa función tiene una página de manual local.
+
+------------------------------------------------------------------------
+
+Abre la IDE que querés usar hoy.
+
+**Si usás Positron aqui son paginas de documentación sobre atajos de teclado: [general](https://positron.posit.co/guide-r.html#keyboard-shortcuts), [R](https://positron.posit.co/keyboard-shortcuts.html), [RStudio](https://positron.posit.co/migrate-rstudio-keybindings.html).**
 
 ## Documentación
 

@@ -10,15 +10,20 @@ Tenemos un paquete con una función.
 
 ***
 
+Abre la IDE que querés usar hoy. 
+
+**Si usás Positron aqui son paginas de documentación sobre atajos de teclado: [general](https://positron.posit.co/guide-r.html#keyboard-shortcuts), [R](https://positron.posit.co/keyboard-shortcuts.html), [RStudio](https://positron.posit.co/migrate-rstudio-keybindings.html).**
+
+
 ## Un _test_
 
 - `use_testthat()`.
 
 - `use_test("time")`: primero un _test_ simple, luego un _snapshot test_, luego un _snapshot test_ del error.
 
-- `devtools::test()` o botón.
+- `devtools::test()` o [Ctrl + Shift + T](https://positron.posit.co/guide-r.html#keyboard-shortcuts).
 
-- `devtools::check()`
+- `devtools::check()` o [Ctrl + Shift + E](https://positron.posit.co/guide-r.html#keyboard-shortcuts).
 
 :eyes: [sitio de testthat](https://testthat.r-lib.org/)
 
