@@ -7,7 +7,7 @@ Antes de empezar a escribir paquetes...
 
 - Configurá tu sistema como está [explicado en el libro Paquetes R de Hadley Wickham y Jenny Bryan](https://r-pkgs.org/setup.html). Ponéte en contacto conmigo (mensaje de Slack o email) si cuando llamás a la función `devtools::has_devel()` te da un error que te desconcierta.
 
-- Si querés, installa [Positron](https://positron.posit.co/download.html). Es lo que usaré para las demos, pero si preferís podés usar RStudio IDE, o cualquier otra IDE.
+- Si querés, instala [Positron](https://positron.posit.co/download.html). Es lo que usaré para las demos, pero si preferís podés usar RStudio IDE, o cualquier otra IDE.
 
 - [Creá una cuenta GitHub](https://happygitwithr.com/github-acct), [instala Git](https://happygitwithr.com/install-git). Tené en cuenta que ya deberías tener estas herramientas listas si hicistes los talleres de Git y GitHub.
 
