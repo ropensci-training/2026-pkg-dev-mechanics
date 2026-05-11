@@ -31,23 +31,23 @@ rmd_hash: 278e574c1fc1df5d
 
 ## Hoy
 
--   Pruebas (a diferencia de los experimentos en la consola)
+- Pruebas (a diferencia de los experimentos en la consola)
 
--   Integración continua
+- Integración continua
 
 ------------------------------------------------------------------------
 
 ## Recursos adicionales
 
--   Libro R packages, capítulo de testing: <https://r-pkgs.org/testing-basics.html>
+- Libro R packages, capítulo de testing: <https://r-pkgs.org/testing-basics.html>
 
--   <https://mtlynch.io/good-developers-bad-tests/>
+- <https://mtlynch.io/good-developers-bad-tests/>
 
--   <https://blog.r-hub.io/2020/11/18/testthat-utility-belt/>
+- <https://blog.r-hub.io/2020/11/18/testthat-utility-belt/>
 
--   <https://github.com/r-lib/actions>
+- <https://github.com/r-lib/actions>
 
--   Capitulo de dependencias y test del libro de [Introducción a la Programación II](https://intro-programacion.netlify.app/11_errores) de Paola Corrales y Yanina Bellini Saibene
+- Capitulo de dependencias y test del libro de [Introducción a la Programación II](https://intro-programacion.netlify.app/11_errores) de Paola Corrales y Yanina Bellini Saibene
 
 ------------------------------------------------------------------------
 

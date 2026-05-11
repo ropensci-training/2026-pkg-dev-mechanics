@@ -7,7 +7,7 @@ layout: list
 weight: 11
 output: hugodown::md_document
 countdown: true
-rmd_hash: 6482e87bcf38b26f
+rmd_hash: b4b8d2b78cef9532
 
 ---
 
@@ -27,15 +27,15 @@ rmd_hash: 6482e87bcf38b26f
 
 ## Mis credenciales de desarrollo de paquetes R
 
--   [Revisión de software por pares de rOpenSci](https://ropensci.org/es/software-review).
+- [Revisión de software por pares de rOpenSci](https://ropensci.org/es/software-review).
 
--   [Guía de desarrollo de rOpenSci](https://devguide.ropensci.org/es/index.es.html).
+- [Guía de desarrollo de rOpenSci](https://devguide.ropensci.org/es/index.es.html).
 
--   [blog R-hub](https://blog.r-hub.io).
+- [blog R-hub](https://blog.r-hub.io).
 
--   Libro [HTTP testing in R](https://books.ropensci.org/http-testing/) con Scott Chamberlain.
+- Libro [HTTP testing in R](https://books.ropensci.org/http-testing/) con Scott Chamberlain.
 
--   Participé en el desarrollo de varios paquetes.
+- Participé en el desarrollo de varios paquetes.
 
 ------------------------------------------------------------------------
 
@@ -43,11 +43,11 @@ rmd_hash: 6482e87bcf38b26f
 
 La forma más fácil de compartir código/datos/plantillas R Markdown... con
 
--   vos (en el futuro),
+- vos (en el futuro),
 
--   las personas que conocés,
+- las personas que conocés,
 
--   y las personas que no conocés.
+- y las personas que no conocés.
 
 ------------------------------------------------------------------------
 
@@ -55,11 +55,11 @@ La forma más fácil de compartir código/datos/plantillas R Markdown... con
 
 [Jon Calder](https://joncalder.co.za/) [explicó](https://github.com/iandurbach/datasci-fi/tree/master/docs/packages/slides)
 
--   Compartir código (y datos);
+- Compartir código (y datos);
 
--   Para aprovechar las herramientas existentes;
+- Para aprovechar las herramientas existentes;
 
--   Para contribuir a otros paquetes.
+- Para contribuir a otros paquetes.
 
 ------------------------------------------------------------------------
 
@@ -67,13 +67,13 @@ La forma más fácil de compartir código/datos/plantillas R Markdown... con
 
 Susan Johnston [preguntó](https://github.com/susjoh/fibonacci).
 
--   Podés abrir R o RStudio?
+- Podés abrir R o RStudio?
 
--   Podés instalar un paquete?
+- Podés instalar un paquete?
 
--   ¿Escribistes alguna vez una función en R?
+- ¿Escribistes alguna vez una función en R?
 
--   ¿Podrías *aprender* a escribir una función en R?
+- ¿Podrías *aprender* a escribir una función en R?
 
 **¡Podés escribir un paquete en R!**
 
@@ -81,19 +81,19 @@ Susan Johnston [preguntó](https://github.com/susjoh/fibonacci).
 
 ## Recursos sobre funciones (1/2)
 
--   [Materiales del tutorial de R-Ladies East Lansing de Stephanie Kirmer](https://github.com/rladies-eastlansing/2021-rfunctions#writing-r-functions)
+- [Materiales del tutorial de R-Ladies East Lansing de Stephanie Kirmer](https://github.com/rladies-eastlansing/2021-rfunctions#writing-r-functions)
 
--   [Escribe tus propias funciones de R](https://stat545.com/functions-part1.html), curso stat 545 por Jenny Bryan y The STAT 545 TAs;
+- [Escribe tus propias funciones de R](https://stat545.com/functions-part1.html), curso stat 545 por Jenny Bryan y The STAT 545 TAs;
 
--   [Capítulo sobre funciones](https://r4ds.had.co.nz/functions.html) en el libro "R for Data Science" de Garrett Grolemund y Hadley Wickham;
+- [Capítulo sobre funciones](https://r4ds.had.co.nz/functions.html) en el libro "R for Data Science" de Garrett Grolemund y Hadley Wickham;
 
 ------------------------------------------------------------------------
 
 ## Recursos sobre funciones (2/2)
 
--   [Charla "Fun with Functions](https://zealous-wiles-e22e83.netlify.app/talk/funwithfunctions/) por Kaylea Haynes, R-Ladies Manchester.
+- [Charla "Fun with Functions](https://zealous-wiles-e22e83.netlify.app/talk/funwithfunctions/) por Kaylea Haynes, R-Ladies Manchester.
 
--   Capítulo sobre Funciones del libro de la materia [Introducción a la Programación II](https://intro-programacion.netlify.app/07_funciones) de Paola Corrales y Yanina Bellini Saibene.
+- Capítulo sobre Funciones del libro de la materia [Introducción a la Programación II](https://intro-programacion.netlify.app/07_funciones) de Paola Corrales y Yanina Bellini Saibene.
 
 ------------------------------------------------------------------------
 
@@ -139,9 +139,9 @@ Trabajo regular, enseñanza, reproducción de problemas.
 
 ## Objetivos para las tres sesiones
 
--   Conocer (las mejores :innocent:) herramientas para el desarrollo de paquetes;
+- Conocer (las mejores :innocent:) herramientas para el desarrollo de paquetes;
 
--   Aprender que no hay magia, sólo práctica y :sparkles: consejos :sparkles:.
+- Aprender que no hay magia, sólo práctica y :sparkles: consejos :sparkles:.
 
 <div class="highlight">
 
@@ -199,9 +199,9 @@ Cómo guardar los ajustes de una bicicleta.
 
 ## Dos ruedas siempre girando :bike:
 
--   Cargando, probando, editando.
+- Cargando, probando, editando.
 
--   Ejecutar (añadir) las pruebas, editar. ¡En la próxima sesión!
+- Ejecutar (añadir) las pruebas, editar. ¡En la próxima sesión!
 
 ------------------------------------------------------------------------
 

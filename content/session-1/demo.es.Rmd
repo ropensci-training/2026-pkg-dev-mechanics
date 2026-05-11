@@ -30,9 +30,13 @@ La preparación no es divertida!
 
 ## Creación de paquete
 
-* `pak::pkg_name_check("minipkg")`
+* `pak::pkg_name_check("minipkg3")`
 
-* `usethis::create_package("../minipkg")`
+* `usethis::create_package("../minipkg3")`
+
+```{=html}
+{{< figure src="/images/screenshot.png" caption="Captura de pantalla en Positron. Azul oscuro: consola R! Azul claro: nombre del proyecto. Verde: barra de menu, por ejemplo para ver opciones. Rosa: para buscar en archivos del proyecto. Rojo: explorador de archivos. Naranja: aqui puedo yo encontrar Control de Versión porqué haciendo clics lo desplazé de la izquierda hasta la derecha, asi de facil, para que se parezca más a Rstudio." >}}
+```
 
 * `usethis::edit_r_profile()`
 
